@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+	color: white;
+	link: white;
+	alink: white;
+	vlink: white;
+}
+.main_div{
+	display: block;
+	background-color: black;
+	width: 560px;
+	height: 620px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid gray;
+	text-align: center;
+}
+.top_div{
+	display: block;
+	background: url(../img/header.png);
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	width: 560px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid gray;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+  }
+A{
+	color: white;
+	text-decoration: none;
+	
+}
+A:visited{
+	color: white;
+}
+
+A:active{
+	color: white;
+}

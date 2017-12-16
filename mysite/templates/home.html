@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block main %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <div class="top_div"></div>
+    <div class="main_div">Добро пожаловать на тестовую игровую площадку посвященная игре "PACMAN"
+        На нашем сайте вы сможете опробовать "бета" версию игры, для этого войдите в свой аккаунт нажав на кнопку "LOGIN"
+        <div class="loginbutton_div" onclick="location.href='{% url 'login' %}'"></div>
+    </div>
+{% endblock %}

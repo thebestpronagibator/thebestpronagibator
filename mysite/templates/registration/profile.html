@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block main %}
+     <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+</head>
+<body>
+<div class="top_div"></div>
+<div class="main_div"><h1 style="text-align: center">Для игры нажмите на кнопку "Начать играть"</h1>
+    <a href="{% url 'ViewProfiles' %}">Просмотреть информацию о игроках</a>
+    <div class="gamestartbutton_div" onclick="location.href='{% url 'index' %}'"></div>
+</div>
+{% endblock %}

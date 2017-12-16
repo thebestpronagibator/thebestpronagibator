@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+	color: white;
+}
+.main_div{
+	display: block;
+	background-color: black;
+	width: 560px;
+	height: 620px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid gray;
+}
+.top_div{
+	display: block;
+	background: url(../img/header.png);
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	width: 560px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid gray;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+  }
+.loginbutton_div{
+    display: block;
+	margin-top: 120px;
+	background: url(../img/loginbutton.png);
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	width: 300px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid gray;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+  }

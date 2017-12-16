@@ -1,0 +1,63 @@
+body{
+	background-color: black;
+	color: white;
+}
+.main_div{
+	display: block;
+	background-color: black;
+	width: 560px;
+	height: 620px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid gray;
+}
+.top_div{
+	display: block;
+	background: url(../img/header.png);
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	width: 560px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid gray;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.mainform{
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.input1{
+	margin-top: 10px;
+	border: 2px solid blue;
+	width: 150px;
+}
+.input2{
+	margin-left: 84px;
+	margin-top: 10px;
+	border: 2px solid blue;
+	width: 150px;
+}
+.input3{
+	margin-left: 73px;
+	margin-top: 10px;
+	border: 2px solid blue;
+	width: 150px;
+}
+.input4{
+	margin-left: 17px;
+	margin-top: 10px;
+	border: 2px solid blue;
+	width: 150px;
+}
+.input5{
+	margin-left: 132px;
+	margin-top: 20px;
+	border: 2px solid blue;
+	width: 150px;
+}

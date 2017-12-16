@@ -1,0 +1,36 @@
+.main_div{
+	display: block;
+	background-color: black;
+	width: 560px;
+	height: 620px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid white;
+}
+.top_div{
+	display: block;
+	background: url(../img/header.png);
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	width: 560px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid white;
+  }
+body{
+	background-color: black;
+}
+
+
+.pacman{
+	display: block;
+	width: 28px;
+	height: 28px;
+	background-color: white;
+	margin-top: 16px;
+	margin-left: 16px;
+}

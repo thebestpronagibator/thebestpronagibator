@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block main %}
+</head>
+<h2>Профили игроков:</h2>
+    <table>
+        <tr>
+            <th>nickname</th>
+            <th>mail</th>
+            <th>score</th>
+        </tr>
+        {% for player in players %}
+            <tr>
+                <td> {{ player.name }} </td>
+                <td> {{ player.email }} </td>
+                <td> {{ player.score}} </td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
